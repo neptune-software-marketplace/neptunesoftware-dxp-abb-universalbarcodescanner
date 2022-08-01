@@ -1,0 +1,47 @@
+{
+	"id": "32180D45-7F11-ED11-BD6E-000D3AB1D9FF",
+	"createdAt": "2022-08-01T09:49:44.540Z",
+	"createdBy": "kristin.eliassen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-universalbarcodescanner",
+		"testServers": []
+	},
+	"name": "neptunesoftware-dxp-abb-universalbarcodescanner",
+	"description": null,
+	"ver": "22.8.1.950",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "AFAE9B16-298E-EB11-85AA-000D3AB08500",
+			"ver": "22.8.1.1149",
+			"application": "neptbb_barcode_universal",
+			"title": "Tech",
+			"description": "Barcode reader PWA & Mobile"
+		}
+	],
+	"api": [],
+	"odataMock": [],
+	"odataSource": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"wf_definition": [],
+	"department": [],
+	"script_scheduler": [],
+	"connector": []
+}
