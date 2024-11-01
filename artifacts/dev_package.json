@@ -1,5 +1,5 @@
 {
-	"id": "32180D45-7F11-ED11-BD6E-000D3AB1D9FF",
+	"id": "32180d45-7f11-ed11-bd6e-000d3ab1d9ff",
 	"createdAt": "2022-08-01T09:49:44.540Z",
 	"createdBy": "kristin.eliassen@neptune-software.com",
 	"git": {
@@ -11,18 +11,10 @@
 	"description": null,
 	"ver": "22.8.1.950",
 	"enableCICD": true,
-	"apps": [
-		{
-			"id": "AFAE9B16-298E-EB11-85AA-000D3AB08500",
-			"ver": "22.8.1.1149",
-			"application": "neptbb_barcode_universal",
-			"title": "Tech",
-			"description": "Barcode reader PWA & Mobile"
-		}
-	],
+	"apps": [],
 	"api": [],
-	"odataMock": [],
 	"odataSource": [],
+	"odataMock": [],
 	"dictionary": [],
 	"jsclass": [],
 	"jsscript_group": [],
@@ -40,8 +32,12 @@
 	"systems": [],
 	"doc": [],
 	"wf_notifications": [],
-	"wf_definition": [],
 	"department": [],
 	"script_scheduler": [],
-	"connector": []
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
 }
