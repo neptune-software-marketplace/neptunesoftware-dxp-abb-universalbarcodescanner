@@ -1,0 +1,2 @@
+codeReader.reset();
+InputResult.setValue("");

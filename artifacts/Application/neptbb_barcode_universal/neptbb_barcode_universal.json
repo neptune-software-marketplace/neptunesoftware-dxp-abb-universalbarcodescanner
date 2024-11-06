@@ -1,0 +1,338 @@
+{
+	"id": "afae9b16-298e-eb11-85aa-000d3ab08500",
+	"createdAt": "2022-04-14T11:01:17.163Z",
+	"createdBy": "lloyd",
+	"objects": [
+		{
+			"fieldNo": "271c8d76-2757-4d30-aefb-887396629dbf",
+			"fieldName": "VBoxContainer",
+			"fieldParent": 0,
+			"fieldType": "sap.m.VBox",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "styleClassMargin",
+					"grouping": "Properties",
+					"value": "sapUiLargeMargin",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "5f7e0a91-92a5-440d-c372-b3717e0b89e6",
+					"fieldName": "LabelVideoDevice",
+					"fieldParent": "271c8d76-2757-4d30-aefb-887396629dbf",
+					"fieldType": "sap.m.Label",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "text",
+							"grouping": "Properties",
+							"value": "Change video source",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "12cec13b-6d7c-4d37-d1a4-b0b4df9d99ec",
+					"fieldName": "SelectVideoDevice",
+					"fieldParent": "271c8d76-2757-4d30-aefb-887396629dbf",
+					"fieldType": "sap.m.Select",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "Generic Array",
+					"bindingType": "h",
+					"bindingSource": "P9",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "change",
+							"grouping": "Events",
+							"value": "selectedDeviceId = this.getSelectedKey();",
+							"script": "selectedDeviceId = this.getSelectedKey();",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "eaed3758-91ce-4108-a89c-d4be9c8f55f6",
+							"fieldName": "ItemVideoDeviceOption",
+							"fieldParent": "12cec13b-6d7c-4d37-d1a4-b0b4df9d99ec",
+							"fieldType": "sap.ui.core.Item",
+							"script": "",
+							"customComponent": false,
+							"bindingType": "h",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "{label}",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "key",
+									"grouping": "Properties",
+									"value": "{deviceId}",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "e5d77861-d909-4e28-c392-c553713af730",
+					"fieldName": "HBoxControls",
+					"fieldParent": "271c8d76-2757-4d30-aefb-887396629dbf",
+					"fieldType": "sap.m.HBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "63d7e8ff-4cf7-426e-fb05-1075b07d8589",
+							"fieldName": "startButton",
+							"fieldParent": "e5d77861-d909-4e28-c392-c553713af730",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Emphasized",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Start",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiSmallMarginEnd",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.Button/startButton/press.script",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "bb6571c3-02f0-48f2-9c28-796c54bd4789",
+							"fieldName": "resetButton",
+							"fieldParent": "e5d77861-d909-4e28-c392-c553713af730",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Attention",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Reset",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.Button/resetButton/press.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "f1fbff55-d87a-4359-e04f-eb27e6dd16b1",
+					"fieldName": "HTMLObjectVideoContainer",
+					"fieldParent": "271c8d76-2757-4d30-aefb-887396629dbf",
+					"fieldType": "sap.ui.core.HTML",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "28a75a2f-00fe-4823-be37-9368ff856678",
+							"fieldName": "HTMLVideoContainer",
+							"fieldParent": "f1fbff55-d87a-4359-e04f-eb27e6dd16b1",
+							"fieldType": "neptune.Html",
+							"script": "<video id=\"video\" width=\"300\" height=\"200\" style=\"border: 1px solid gray\"></video>",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "b1d075de-d653-41e0-d8bb-c043d553754b",
+					"fieldName": "LabelResult",
+					"fieldParent": "271c8d76-2757-4d30-aefb-887396629dbf",
+					"fieldType": "sap.m.Label",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "text",
+							"grouping": "Properties",
+							"value": "Result",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "styleClassMargin",
+							"grouping": "Properties",
+							"value": "sapUiMediumMarginTop",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "75f0597f-87c1-4352-8a1a-723e1484d753",
+					"fieldName": "InputResult",
+					"fieldParent": "271c8d76-2757-4d30-aefb-887396629dbf",
+					"fieldType": "sap.m.Input",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "editable",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "e25c194c-b047-4fbc-e453-8d1bcfd13f8f",
+					"fieldName": "ReadMe",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/ReadMe.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "6f4eeddb-21fc-4a20-e87c-ff4f79b155b0",
+					"fieldName": "Init",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Init.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.11.06.1040",
+	"application": "neptbb_barcode_universal",
+	"title": "",
+	"description": "ZXing  video/camera barcode capturing app.",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": true,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "C",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": " <script type=\"text/javascript\" src=\"https://unpkg.com/@zxing/library@latest/umd/index.min.js\"></script>",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "32180d45-7f11-ed11-bd6e-000d3ab1d9ff"
+}

@@ -1,0 +1,11 @@
+codeReader.decodeFromVideoDevice(selectedDeviceId, "video", (result, err) => {
+    if (result) {
+        console.log(result);
+        InputResult.setValue(result.text);
+        sap.m.MessageToast.show("Barcode has been scanned!");
+    }
+    if (err && !(err instanceof ZXing.NotFoundException)) {
+        console.error(err);
+        InputResult.setValue(err);
+    }
+});
