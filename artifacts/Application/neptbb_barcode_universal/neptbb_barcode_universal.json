@@ -333,6 +333,6 @@
 	"printWidth": null,
 	"generateVersionOnActivation": false,
 	"activationHistoryCount": 0,
-	"apis": [],
-	"package": "32180d45-7f11-ed11-bd6e-000d3ab1d9ff"
+	"package": "32180d45-7f11-ed11-bd6e-000d3ab1d9ff",
+	"apis": []
 }

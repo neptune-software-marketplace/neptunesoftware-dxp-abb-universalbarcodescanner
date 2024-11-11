@@ -5,21 +5,23 @@
 	"git": {
 		"targetServers": [],
 		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-universalbarcodescanner",
-		"testServers": []
+		"testServers": [],
+		"branch": "v24"
 	},
 	"name": "neptunesoftware-dxp-abb-universalbarcodescanner",
 	"description": null,
-	"ver": "22.8.1.950",
+	"ver": "24.11.11.1752",
 	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": true,
+	"roles": [],
 	"apps": [
 		{
 			"id": "afae9b16-298e-eb11-85aa-000d3ab08500",
 			"application": "neptbb_barcode_universal",
 			"title": "",
-			"description": "ZXing  video/camera barcode capturing app.",
-			"package": {
-				"id": "32180D45-7F11-ED11-BD6E-000D3AB1D9FF"
-			}
+			"description": "ZXing  video/camera barcode capturing app."
 		}
 	],
 	"api": [],
@@ -35,8 +37,11 @@
 	"api_authentication": [],
 	"api_group": [],
 	"tile": [],
+	"tile_layout": [],
 	"category": [],
+	"tilegroup_layout": [],
 	"launchpad": [],
+	"launchpad_layout": [],
 	"certificates": [],
 	"role": [],
 	"systems": [],
@@ -49,5 +54,6 @@
 	"events": [],
 	"code_snippets": [],
 	"wf_determination": [],
-	"wf_taskaction": []
+	"wf_taskaction": [],
+	"theme_ui5": []
 }
