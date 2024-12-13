@@ -9,7 +9,7 @@
 		"branch": "v24"
 	},
 	"name": "neptunesoftware-dxp-abb-universalbarcodescanner",
-	"description": null,
+	"description": "Scan 1D/2D barcodes and QR codes using the device camera and robust ZXing library.",
 	"ver": "24.11.11.1752",
 	"enableCICD": true,
 	"internalReadOnly": false,
