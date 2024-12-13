@@ -8,7 +8,7 @@
 		"testServers": []
 	},
 	"name": "neptunesoftware-dxp-abb-universalbarcodescanner",
-	"description": null,
+	"description": "Scan 1D/2D barcodes and QR codes using the device camera and robust ZXing library.",
 	"ver": "22.8.1.950",
 	"enableCICD": true,
 	"apps": [
